@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="Styles/App.css" />
+		<script type="text/javascript" src="Lib/JQuery/jquery-3.2.1.min.js"></script>
+		<script defer src="Lib/mdl/material.min.js"></script>
+	</head>
+	<body>
+		<!-- Always shows a header, even in smaller screens. -->
+		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+			<header class="mdl-layout__header">
+				<div class="mdl-layout__header-row">
+					<!-- Title -->
+					<span class="mdl-layout-title">Trip Planner</span>
+					<!-- Add spacer, to align navigation to the right -->
+					<div class="mdl-layout-spacer"></div>
+				</div>
+			</header>
+			<div class="mdl-layout__drawer">
+				<span class="mdl-layout-title-inmenu">&nbsp;</span>
+				<nav class="mdl-navigation">
+					<a class="mdl-navigation__link" href=""><i class="fa fa-user" aria-hidden="true"></i>
+					Profile</a>
+					<a class="mdl-navigation__link" href=""><i class="fa fa-floppy-o" aria-hidden="true"></i>
+					Saved Trips</a>
+					<a class="mdl-navigation__link" href=""><i class="fa fa-users" aria-hidden="true"></i>
+					Community</a>
+					<a class="mdl-navigation__link" href=""><i class="fa fa-cog" aria-hidden="true"></i>
+					Settings</a>
+				</nav>
+			</div>
+			<div class="floating-button">
+				<!-- Colored FAB button with ripple -->
+				<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+					<i class="material-icons">edit</i>
+				</button>
+			</div>
+			<main class="mdl-layout__content">
+				<div class="page-content">
+					<!-- Your content goes here -->
+					<script type="text/javascript" src="Scripts/viewtrip.js"></script>
+					<div class="main-container">
+				    <section id="timeline" class="timeline-outer">
+				      <div class="container" id="content">
+								<h4>Milestones</h4>
+				        <div class="row">
+				          <div class="col s12 m12 l12">
+				            <ul class="timeline" id="TimelineContainer">
+				              <!-- MDL Progress Bar with Indeterminate Progress -->
+				              <!--<div id="TimelineLoader" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" style="width: 100%;"></div>-->
+				            </ul>
+				          </div>
+				        </div>
+				      </div>
+				    </section>
+				  </div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
