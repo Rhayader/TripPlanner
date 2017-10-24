@@ -5,8 +5,8 @@
       20:45 10/24/2017
     </date>
     <title>Flight</title>
-    <content>
-      Air France Omnibus Boeing 747 Lorem Ipsum
-    </content>
+    <origin>Paris</origin>
+    <destination>Florence</destination>
+    <content>Air France Omnibus Boeing 747 Lorem Ipsum</content>
   </db_event>
 </db_event_tables>

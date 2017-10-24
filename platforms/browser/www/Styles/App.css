@@ -29,3 +29,9 @@ Stub for importing the stylesheets + generic classes*/
   }
 }
 }
+
+.milestone-card-title{
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+}

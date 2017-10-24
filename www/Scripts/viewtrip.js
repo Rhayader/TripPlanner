@@ -12,7 +12,7 @@ function xmlParser(xml){
   $(xml).find('db_event').each(function(){
     var icon;
     if($(this).find('title').text()=='Flight'){
-      icon='<i class="fa fa-plane" aria-hidden="true" style="font-size: 2rem; color: #F44336;"></i>'+'<strong>&nbsp;Flight from Paris to Florence</strong>';
+      icon='<div class="milestone-card-title"><strong><i class="fa fa-plane" aria-hidden="true" style="color: #F44336; font-size: 1.5rem;"></i>'+'&nbsp;' + $(this).find('origin').text() +'</strong>' + '&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>' + '&nbsp;<strong>' + $(this).find('destination').text() + '</strong></div>';
     } else{
       icon=$(this).find('title').text();
     };
