@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db_event_tables>
+  <db_event id="1">
+    <date>October 24 2017 20:45:00</date>
+    <title>Flight</title>
+    <origin>Paris</origin>
+    <destination>Florence</destination>
+    <content>Air France Omnibus Boeing 747 Lorem Ipsum</content>
+  </db_event>
+</db_event_tables>
